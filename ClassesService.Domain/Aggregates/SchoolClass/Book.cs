@@ -11,10 +11,6 @@ namespace ClassesService.Domain.Aggregates.SchoolClass
         public int Pages { get; private set; }
         public DateTime Year { get; private set; }
 
-        public Book()
-        {
-        }
-
         public Book(string author, string publisher, int pages, DateTime year)
         {
             Author = author;
